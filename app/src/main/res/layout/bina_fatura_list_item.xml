@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- From Label -->
+    <TextView
+        android:id="@+id/PaylasimDonemAdi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:paddingLeft="8dip"
+        android:paddingBottom="4dip"
+        android:textSize="24dip"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    
+    <!-- Mail Subject -->
+    <TextView android:id="@+id/FaturaTarihi"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:layout_below="@id/PaylasimDonemAdi"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Mail date -->
+    <TextView android:id="@+id/ToplamIsinmaBedeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:layout_below="@+id/FaturaTarihi"
+        android:textColor="#FFFFFF"
+        />/
+
+    <!-- Mail Subject -->
+    <TextView android:id="@+id/SonOdemeTarihi"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="6dip"
+        android:textSize="15dip"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"/>
+
+
+ 
+</RelativeLayout>

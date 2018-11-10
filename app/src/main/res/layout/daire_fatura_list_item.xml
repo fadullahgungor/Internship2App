@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- Mail date -->
+    <TextView android:id="@+id/PaylasimDOnemAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:paddingLeft="8dip"
+        android:paddingBottom="6dip"
+        android:textSize="24dip"
+        android:textStyle="bold"
+        android:textColor="#000"
+
+
+        />
+
+
+    <!-- From Label -->
+    <TextView
+        android:id="@+id/FaturaTutari"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:layout_below="@+id/PaylasimDOnemAdi"
+        android:textColor="#FFFFFF"
+
+        />
+
+    <!-- Mail Subject -->
+    <TextView android:id="@+id/SonOdemeTarihi"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:layout_below="@id/FaturaTutari"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+    <!-- Mail Subject -->
+    <TextView android:id="@+id/ToplamIsinmaBedeli"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:layout_below="@+id/SonOdemeTarihi"
+        android:textColor="#FFFFFF"
+
+        />
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/Progress"-->
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingLeft="8dip"-->
+        <!--android:paddingBottom="6dip"-->
+        <!--android:layout_below="@+id/ToplamIsinmaBedeli"-->
+        <!--/>-->
+
+
+
+    <TextView android:id="@+id/yuzde"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:layout_below="@+id/ToplamIsinmaBedeli"
+        android:textColor="#FFFFFF"
+
+        />
+
+
+
+
+</RelativeLayout>

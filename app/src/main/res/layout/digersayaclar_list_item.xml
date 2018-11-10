@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- Subject Label -->
+    <TextView
+        android:id="@+id/digerSayacTipi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:paddingLeft="8dip"
+        android:paddingBottom="4dip"
+        android:textSize="24dip"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <!-- To email -->
+    <TextView android:id="@+id/digerSayacNumarasi"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:layout_below="@id/digerSayacTipi"
+        android:textColor="#FFFFFF"/>
+
+    <!-- To email -->
+    <TextView android:id="@+id/digerIlkOkumaTarihi"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:layout_below="@id/digerSayacNumarasi"
+        android:textColor="#FFFFFF"/>
+
+    <!-- To email -->
+    <TextView android:id="@+id/digerSonOkumaTarihi"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:layout_below="@id/digerIlkOkumaTarihi"
+        android:textColor="#FFFFFF"/>
+
+    <!-- To email -->
+    <TextView android:id="@+id/digerIlkEndeks"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:layout_below="@id/digerSonOkumaTarihi"
+        android:textColor="#FFFFFF"/>
+
+    <!-- To email -->
+    <TextView android:id="@+id/digerSonEndeks"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:layout_below="@id/digerIlkEndeks"
+        android:textColor="#FFFFFF"/>
+
+    <!-- To email -->
+    <TextView android:id="@+id/digerTuketim"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="38dip"
+        android:paddingBottom="6dip"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:layout_below="@id/digerSonEndeks"
+        android:textColor="#FFFFFF"/>
+
+
+
+</RelativeLayout>

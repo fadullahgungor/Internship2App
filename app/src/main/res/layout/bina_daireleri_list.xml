@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#8A2908"
+    >
+
+
+    <TextView
+        android:id="@+id/kisiler"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:textSize="25dp"
+        android:text="APARTMAN KİŞİ LİSTESİ"
+        android:background="#8A2908"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kisiler"
+            android:background="#8A2908" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#0f9d58"
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/daireAylik"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:textSize="25dp"
+        android:text="DAİRE AYLIK FATURALARI"
+        android:background="#0f9d58"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grafik görünüm için tıklayın"
+        android:background="@drawable/rounded_button2"
+        android:layout_margin="5dp"
+        android:onClick="bas2"
+        android:id="@+id/çizgigrafikbutonid"
+        />
+
+
+
+
+            <ListView
+                 android:id="@android:id/list"
+                 android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                 android:background="#0f9d58"
+                 android:layout_below="@id/daireAylik"/>
+
+
+</LinearLayout>

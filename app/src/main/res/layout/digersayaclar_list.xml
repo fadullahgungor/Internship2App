@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#F7819F">
+
+
+    <TextView
+        android:id="@+id/digersayaclar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:textSize="25dp"
+        android:text="SAYAÇLAR HAKKINDA BİLGİ"
+        android:background="#F7819F"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textttt"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:textSize="25dp"
+        android:text="SAYAÇLARI HAKKINDA BİLGİ"
+        android:background="#F7819F"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#F7819F"
+        android:layout_below="@id/sayaclar"/>
+
+</LinearLayout>
